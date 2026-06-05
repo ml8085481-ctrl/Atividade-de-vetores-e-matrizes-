@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    real numero
+    escreva("digite um numero real")
+    leia(numero)
+    escreva("\nvalor arredondado:")
+    escreva("\nrais quadrada:")
+    escreva("\nnumeroa quadrado")
+  }
+}
