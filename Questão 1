@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real notas[5]
+    inteiro i
+    para(i = 0; i < 5; i++){
+      escreva("digite a nota do aluno " , +1, ":" )
+      leia(notas[1])
+
+    }escreva("\nnotas armazemanadas:\n")
+    para(i = 0 ; i < 5; i++){
+      escreva("aluno", i + 1, ";", notas[i], "\n")
+    }
+  }
